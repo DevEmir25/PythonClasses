@@ -11,3 +11,7 @@ j = (1, 2, 3) #tuple (constant array)
 
 print("a :", type(a))
 print("b :", type(b))
+
+print(type(h))
+print(type(i))
+print(type(j))
