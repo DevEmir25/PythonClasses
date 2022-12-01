@@ -51,7 +51,7 @@ if not os.path.exists("veri"):
 
 
 parite = input("Parite Giriniz :")
-bas_tarih = input("Başlangiç Tarihi :")
+bas_tarih = input("Başlangıç Tarihi :")
 bit_tarih = input("Bitiş Tarihi :")
 
 sorgu = "SELECT * FROM parite WHERE " \
@@ -63,4 +63,3 @@ sonuc = cursor.fetchall()
 print(sonuc)
 
 bag.close()
-
